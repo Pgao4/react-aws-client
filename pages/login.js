@@ -84,6 +84,9 @@ const Login = () => {
           <h1>Login</h1>
           <br />
           {loginForm()}
+          <Link href="/auth/password/forgot">
+            <a className='text-danger float-right'>Forgot password</a>
+          </Link>
           {/* <hr />
           {JSON.stringify(state)} */}
         </div>
