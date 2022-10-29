@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 import jwt from 'jsonwebtoken'
 import axios from 'axios'
 import { showSuccessMessage, showErrorMessage} from '../../../helpers/alert'
